@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  color: white;
+  max-width: 24rem;
+  background-color: #181820;
+  border: 1px solid black;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  margin: 0 auto; /* Center the element on the page */
+  padding: 10px; /* Add some padding */
+  height: 100%;
+}
+
+.gameGrid {
+  display: grid;
+  grid-template-columns: repeat(
+    3,
+    1fr
+  ); /* Fixed three columns on all screen sizes */
+  grid-template-rows: repeat(3, 1fr);
+  max-width: 24rem;
+  margin-bottom: 30px;
+  background-color: #181820;
+}
+
+.grid-item {
+  border: 1px solid black;
+  height: 8rem;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerClass,
+.footer {
+  background-color: white;
+  margin-bottom: 20px;
+  width: 100%; /* Use full width */
+  max-width: 24rem;
+  background-color: #181820;
+}
