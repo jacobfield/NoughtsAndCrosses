@@ -2,7 +2,8 @@ export function Footer() {
   return (
     <>
       <div className="footer">
-        <p>🚀 Jacob Field 🚀</p>
+        <p>🚀 Built by Team 19 🚀</p>
+        <p>Jacob Field & Thomas Vincent</p>
       </div>
     </>
   );
